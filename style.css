@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
-
-
-:root {
+root {
     --cor-de-fundo: #1E1E1E;
     --rosa: #ff57e9;
     --branco: #FFFFFF;
@@ -24,7 +21,12 @@
         border-bottom: 4px solid var(--botao-ativo); 
         border-left: 2px solid var(--botao-ativo); 
         border-right: 2px solid var(--botao-ativo); 
-        border-top: none;
+        border-top: none; 
+        .ativo{
+            background-color: var(--botao-ativo);
+            border-bottom: 4px solid var(--verde);
+        }
+        
     
     }
     
